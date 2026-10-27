@@ -95,8 +95,8 @@
   .hero { padding-top: 120px; }
   .verse { font-style: italic; font-size: 1.1rem; color: var(--ink-soft); max-width: 30ch; }
   .verse cite { display: block; font-style: normal; font-family: var(--font-label); font-size: .72rem; letter-spacing: .2em; margin-top: 8px; color: var(--silver); text-transform: uppercase; }
-  .monogram { display: flex; align-items: center; justify-content: center; gap: 22px; margin: 34px 0 20px; font-family: var(--font-serif); font-weight: 500; font-size: 3.4rem; line-height: 1; letter-spacing: .04em; }
-  .monogram i { width: 1px; height: 64px; background: linear-gradient(var(--silver-soft), var(--silver), var(--silver-soft)); }
+  .monogram { display: flex; align-items: center; justify-content: center; gap: clamp(12px, 4vw, 22px); margin: 34px 0 20px; font-family: var(--font-serif); font-weight: 500; font-size: clamp(1.9rem, 9vw, 3.4rem); line-height: 1; letter-spacing: .04em; }
+  .monogram i { width: 1px; height: 1.2em; flex: none; background: linear-gradient(var(--silver-soft), var(--silver), var(--silver-soft)); }
   .announce { font-family: var(--font-label); letter-spacing: .4em; font-size: .85rem; text-transform: uppercase; margin-top: 4px; }
 
   /* torn photos */
